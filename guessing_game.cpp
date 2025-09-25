@@ -1,4 +1,3 @@
-
 // guessing_game.cpp
 #include <iostream>
 #include <cstdlib>
@@ -21,7 +20,7 @@ int main() {
         }
         attempts++;
         if(guess == secret) {
-            cout << "🎉 Congratulations! You guessed it in " << attempts << " attempts.\n";
+            cout << "Congratulations! You guessed it in " << attempts << " attempts.\n";
             break;
         } else if(guess < secret) {
             cout << "Too low. Try again.\n";
