@@ -1,4 +1,3 @@
-
 // string_ops.cpp
 #include <iostream>
 #include <string>
@@ -33,9 +32,9 @@ int main() {
     string revf = filtered;
     reverse(revf.begin(), revf.end());
     if(filtered == revf) {
-        cout << "Palindrome ✅" << endl;
+        cout << "Palindrome " << endl;
     } else {
-        cout << "Not a palindrome ❌" << endl;
+        cout << "Not a palindrome " << endl;
     }
 
     return 0;
